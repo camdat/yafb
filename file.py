@@ -88,9 +88,9 @@ while shoeloop:
     if driver.current_url=="http://www."+site+".com/catalog/emptyCart.cfm?cartIsEmpty=1":
         shoeloop=True
     elif driver.find_elements_by_id('Error403') is None:
-        print("ayy shit")
+        print("ayy")
     else:
         shoeloop=None
-        print("You're welcome bitch")
+        print("You're welcome")
 
 
